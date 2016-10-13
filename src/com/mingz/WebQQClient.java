@@ -1198,7 +1198,7 @@ public class WebQQClient {
        	System.err.println("get_friend_uin2 retcode:->" + retcode);
        	return;
        }
-       // {"retcode":0,"result":{"uiuin":"","account":305603665,"uin":1476733029}}
+
        JSONObject result = obj.getJSONObject("result");
 //       System.out.println("get_friend_uin2:->" + result);
        long account = result.getLong("account");
